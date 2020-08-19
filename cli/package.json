@@ -1,0 +1,32 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "command line interface for the github-app",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Krastan D",
+  "license": "ISC",
+  "bin": {
+    "github-cli": "./cli.js"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "jest-mock-console": "^1.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "expo-cli": "^3.17.15",
+    "expo-constants": "^9.0.0"
+  }
+}
