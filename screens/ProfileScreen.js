@@ -53,7 +53,7 @@ function ProfileScreen({ navigation, route }) {
           style={styles.welcomeButton}
           onPress={() => navigation.navigate("Followers")}
         >
-          <Text>{String(profile.repositories) + " followers"}</Text>
+          <Text>{String(profile.followers) + " followers"}</Text>
         </TouchableOpacity>
 
         <View style={{ flex: 0.1 }} />
